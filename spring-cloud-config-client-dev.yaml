@@ -1,8 +1,2 @@
-spring:
-  application:
-    name: spring-cloud-config-client
-  profiles:
-    active: dev
-
 example:
   property: this is an example message on DEV mode
