@@ -1,6 +1,6 @@
 spring:
   application:
-    name: myapp
+    name: spring-cloud-config-client
 
 example:
   property: Hello
