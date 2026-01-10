@@ -1,2 +1,3 @@
-app:
-  name: myapp
+spring:
+  application:
+    name: myapp
