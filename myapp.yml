@@ -1,3 +1,6 @@
 spring:
   application:
     name: myapp
+
+example:
+  property: Hello
