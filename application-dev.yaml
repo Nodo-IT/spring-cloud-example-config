@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: spring-cloud-config-client
+
+example:
+  property: this is an example message on DEV mode
