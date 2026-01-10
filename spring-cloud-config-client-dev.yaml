@@ -1,2 +1,2 @@
 example:
-  property: this is an example message with 'dev' profile
+  property: this is an example message with 'dev' profile and `@RefreshScope`
