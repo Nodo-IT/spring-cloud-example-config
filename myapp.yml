@@ -3,4 +3,4 @@ spring:
     name: spring-cloud-config-client
 
 example:
-  property: Hello
+  property: this is an example message
