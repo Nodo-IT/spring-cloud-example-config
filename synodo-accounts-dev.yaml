@@ -13,5 +13,8 @@ custom:
       id: us-east-2_Q9oZ3qQfd
     client:
       id: 7plggcpctgqnmfotuud8feu8ro
+    scopes:
+      - openid
+      - email
   auth:
     redirect-uri: http://localhost:8083/auth/callback
