@@ -4,6 +4,8 @@ spring:
       resourceserver:
         jwt:
           issuer-uri: https://cognito-idp.us-east-2.amazonaws.com/us-east-2_Q9oZ3qQfd
+server:
+  port: 8083
 
 custom:
   cognito:
