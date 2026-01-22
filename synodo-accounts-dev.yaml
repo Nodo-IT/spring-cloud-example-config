@@ -15,4 +15,4 @@ custom:
       id: 7plggcpctgqnmfotuud8feu8ro
     scopes: openid+email
   auth:
-    redirect-uri: http://localhost:8083/auth/callback
+    redirect-uri: https://us-east-2q9oz3qqfd.auth.us-east-2.amazoncognito.com
