@@ -1,9 +1,20 @@
 spring:
-  security:
-    oauth2:
-      resourceserver:
-        jwt:
-          issuer-uri: https://cognito-idp.us-east-2.amazonaws.com/us-east-2_Q9oZ3qQfd
+    security:
+        oauth2:
+            client:
+                registration:
+                    cognito:
+                        client-id: 7plggcpctgqnmfotuud8feu8ro
+                        client-secret: sr35sbv0snhnv19o1u34m1jaesdnh24otjs2bpk5r9asu64v22k
+                        scope:
+                        - email
+                        - openid
+                        - phone
+                        redirect-uri: http://localhost:8083/auth/callback
+                provider:
+                    cognito:
+                        issuerUri: https://cognito-idp.us-east-2.amazonaws.com/us-east-2_Q9oZ3qQfd
+                        user-name-attribute: username
 server:
   port: 8083
 
