@@ -10,7 +10,7 @@ spring:
                         - email
                         - openid
                         - phone
-                        redirect-uri: http://localhost:8083/auth/callback
+                        redirect-uri: http://localhost:8083/login/oauth2/code/cognito
                 provider:
                     cognito:
                         issuerUri: https://cognito-idp.us-east-2.amazonaws.com/us-east-2_Q9oZ3qQfd
@@ -18,13 +18,13 @@ spring:
 server:
   port: 8083
 
-custom:
-  cognito:
-    userpool:
-      id: us-east-2_Q9oZ3qQfd
-    client:
-      id: 7plggcpctgqnmfotuud8feu8ro
-    scopes: openid+email
-  auth:
-    login-uri: https://us-east-2q9oz3qqfd.auth.us-east-2.amazoncognito.com
-    redirect-uri: http://localhost:8083/auth/callback
+# custom:
+#   cognito:
+#     userpool:
+#       id: us-east-2_Q9oZ3qQfd
+#     client:
+#       id: 7plggcpctgqnmfotuud8feu8ro
+#     scopes: openid+email
+#   auth:
+#     login-uri: https://us-east-2q9oz3qqfd.auth.us-east-2.amazoncognito.com
+#     redirect-uri: http://localhost:8083/auth/callback
