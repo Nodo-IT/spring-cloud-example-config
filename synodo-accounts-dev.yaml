@@ -18,10 +18,10 @@ spring:
 server:
   port: 8083
 
-# custom:
-#   cognito:
-#     userpool:
-#       id: us-east-2_Q9oZ3qQfd
+custom:
+  cognito:
+    userpool:
+      id: us-east-2_Q9oZ3qQfd
 #     client:
 #       id: 7plggcpctgqnmfotuud8feu8ro
 #     scopes: openid+email
