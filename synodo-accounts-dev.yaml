@@ -13,7 +13,7 @@ spring:
                         redirect-uri: http://localhost:8083/login/oauth2/code/cognito
                 provider:
                     cognito:
-                        issuerUri: https://cognito-idp.us-east-2.amazonaws.com/us-east-2_Q9oZ3qQfd
+                        issuerUri: https://cognito-idp.us-east-2.amazonaws.com/us-east-2_8Y34vKHmH
                         user-name-attribute: username
 server:
   port: 8083
@@ -21,7 +21,7 @@ server:
 custom:
   cognito:
     userpool:
-      id: us-east-2_Q9oZ3qQfd
+      id: us-east-2_8Y34vKHmH
 #     client:
 #       id: 7plggcpctgqnmfotuud8feu8ro
 #     scopes: openid+email
